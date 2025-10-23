@@ -1,0 +1,79 @@
+/* Styling dasar untuk body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6; /* Latar belakang abu-abu muda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Styling untuk Profile Card utama */
+.profile-card {
+    background-color: #ffffff; /* Latar belakang kartu putih bersih */
+    border-radius: 12px; /* Sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    padding: 30px;
+    width: 300px; /* Lebar kartu tetap */
+    text-align: center; /* Teks berada di tengah */
+    transition: transform 0.3s ease; /* Transisi saat di-hover */
+}
+
+.profile-card:hover {
+    transform: translateY(-5px); /* Sedikit naik saat di-hover */
+}
+
+/* Styling untuk wadah gambar */
+.profile-image-container {
+    margin-bottom: 20px;
+}
+
+/* Styling untuk gambar profil */
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Membuat gambar lingkaran */
+    object-fit: cover; /* Memastikan gambar mengisi area tanpa terdistorsi */
+    border: 4px solid #4a90e2; /* Garis tepi biru profesional */
+}
+
+/* Styling untuk nama */
+.profile-name {
+    margin: 0 0 5px 0;
+    color: #333; /* Warna teks gelap */
+    font-size: 1.6em;
+}
+
+/* Styling untuk jabatan/profesi */
+.profile-title {
+    margin: 0 0 15px 0;
+    color: #777; /* Warna teks abu-abu */
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/* Styling untuk bio */
+.profile-bio {
+    color: #555;
+    font-size: 0.9em;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+/* Styling untuk tombol kontak */
+.contact-button {
+    display: inline-block;
+    background-color: #4a90e2; /* Warna tombol biru profesional */
+    color: white;
+    text-decoration: none; /* Menghilangkan garis bawah link */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #357ABD; /* Warna tombol sedikit lebih gelap saat di-hover */
+}
